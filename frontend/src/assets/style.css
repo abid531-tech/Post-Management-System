@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* background: #f4f6f9;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: #f4f6f9;
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: none;
+    margin: 0px auto;
+    background: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.table-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+}
+
+.top-bar h2 {
+    font-size: 22px;
+}
+
+.create-btn {
+    background: linear-gradient(134deg,
+            #2563eb,
+            #3b82f6);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.create-btn:hover {
+    background: #0B5ED7;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+thead {
+    background: #1f2937;
+    color: white;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr {
+    transition: 0.3s;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+    transform: scale(1.002);
+}
+
+a {
+    color: #0D6EFD;
+    text-decoration: none;
+}
+
+.status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.published {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.archived {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.draft {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+edit-btn:hover,
+delete-btn:hover {
+    transition: translateY(-2px);
+}
+
+.edit-btn {
+    background: #0D6EFD;
+}
+
+.date-column {
+    white-space: nowrap;
+}
+
+.delete-btn {
+    background: crimson;
+}
+
+.edit-btn:hover {
+    background: #0B5ED7;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
